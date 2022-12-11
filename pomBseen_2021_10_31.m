@@ -1,4 +1,4 @@
-% pombEye
+% pomBseen
 
 % Each column label in the output is preceded by a number and a colon.
 
@@ -12,7 +12,7 @@
 
 
 % **IMAGES
-% PombeY.m works specifically with images taken on a Deltavision 
+% PomBseen.m works specifically with images taken on a Deltavision 
 % fluorescence microscope imaging system and imports .dv image files with
 % multiple channels.
 
@@ -22,10 +22,10 @@
 % segmenting process.
 
 % Image file 2019_09_03_yMO100_27C_1_R3D.dv is an example of a 2-channel
-% image that pombEye can process well.
+% image that pomBseen can process well.
 
 % **MATLAB
-% PombeY extensively uses the Matlab image analysis toolbox for many of the
+% PomBseen extensively uses the Matlab image analysis toolbox for many of the
 % image manipulation functions, as well as the Bio-Formats toolbox used
 % primarily in the dvFileInputs.m function to import the .dv file and split
 % them into each channel image and to extract metadata to convert pixel 
